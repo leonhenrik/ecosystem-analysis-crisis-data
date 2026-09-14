@@ -25,7 +25,7 @@ def load_organizations(raw_dir: Path = RAW_DIR) -> pd.DataFrame:
 def load_assets(raw_dir: Path = RAW_DIR) -> pd.DataFrame:
     path = next(raw_dir.glob("assets-*.csv"))
     df = pd.read_csv(path)
-    for col in ("Investment Types", "Investment Themes", "Supporting Donors"):
+    for col in ("Asset Types", "Supporting Donors"):
         if col in df.columns:
             df[col] = _split_multi_value(df[col])
     return df

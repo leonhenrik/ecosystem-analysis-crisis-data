@@ -21,8 +21,8 @@ notes.
 Organization Name, Organization Type, Description, Supporting Donors (`;`-separated).
 
 ### `raw/assets-*.csv`
-Asset Name, Organization Name, Investment Types, Investment Themes, Supporting Donors
-(all `;`-separated where multi-valued), Description, Website.
+Asset Name, Organization Name, Asset Types, Supporting Donors
+(`;`-separated where multi-valued), Description, Website.
 
 ## Summary (as of 2026-09-14 export)
 
