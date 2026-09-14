@@ -1,8 +1,4 @@
-"""Load raw Crisis Data Funding Compass exports into tidy DataFrames.
 
-Splits semicolon-delimited multi-value fields (donors, investment types/themes)
-into lists, and writes cleaned tables to data/processed/.
-"""
 from pathlib import Path
 
 import pandas as pd
