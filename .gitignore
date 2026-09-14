@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Processed data (regenerate via analysis/scripts/load_data.py)
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated results (regenerate via analysis notebooks/scripts)
+results/figures/*
+!results/figures/.gitkeep
+results/tables/*
+!results/tables/.gitkeep
+
+# LaTeX build artifacts (see paper/.gitignore for details)
+paper/**/*.aux
+paper/**/*.bbl
+paper/**/*.bcf
+paper/**/*.blg
+paper/**/*.fdb_latexmk
+paper/**/*.fls
+paper/**/*.log
+paper/**/*.out
+paper/**/*.run.xml
+paper/**/*.synctex.gz
+paper/**/*.toc
+paper/**/*-blx.bib
+paper/main.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db

@@ -1,0 +1,39 @@
+\documentclass[11pt]{article}
+
+% ---------- Packages ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage[style=authoryear,backend=biber]{biblatex}
+\addbibresource{bibliography/references.bib}
+
+% ---------- Metadata ----------
+\title{Mapping the Crisis Data Funding Ecosystem}
+\author{Author One \and Author Two}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\input{sections/abstract.tex}
+\end{abstract}
+
+\input{sections/introduction.tex}
+\input{sections/related_work.tex}
+\input{sections/methods.tex}
+\input{sections/results.tex}
+\input{sections/discussion.tex}
+\input{sections/conclusion.tex}
+
+\printbibliography
+
+\appendix
+\input{sections/appendix.tex}
+
+\end{document}
